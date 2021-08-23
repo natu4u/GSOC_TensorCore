@@ -47,11 +47,11 @@ The test bench can be modified or other tests can be added to run other workload
 
 ## Caveats
 1. In the current implementation, the decoder, load and store unit are all implemented in the "sequencer module" - for the basic operations that are required for this project. A 
-   more extensive decoder implementation can be found in the TLV directory\
+   more extensive decoder implementation can be found in the TLV directory
 2. The current v0.10 of the RISCV Vector spec does not define the instruction encoding of a VV Integer dot product. To implement this, we've defined our own custom encoding for 
-   this operation. The dot product instruction implementation is still under progress although the elementary operations required to compute the dot product are already supported\
+   this operation. The dot product instruction implementation is still under progress although the elementary operations required to compute the dot product are already supported
 3. The current design works on vectors with LMUL = 1 and elements with 32 bit precision only. The RISCV Vector extension supports elements with multiple bit precisions and 
-   multiple ways of grouping elements using different LMUL values. This will be the next goal for future work\
+   multiple ways of grouping elements using different LMUL values. This will be the next goal for future work
 4. Since the design is still a work in progress, some additional control flow signals are included in the design to control the execution of of some operations explicitly from the 
    test bench. These signals have been referred as such in the comments wherever appropriate. Later, the sequencer and the decoder will communicate directly using internal signals 
    without any explicit control through the test bench.
