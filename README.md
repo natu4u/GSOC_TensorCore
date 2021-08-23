@@ -24,7 +24,7 @@ d. Vector add (VV or VS)
 e. Vector dot product (DOT)
 
 ## Goals Achieved
-We've been able to design the micro-architecture of a singe lane and single VFU based Vector Processor. Currently,our design the supports the following instructions completely - 
+We've been able to design the micro-architecture of a singe lane and single VFU based Vector Processor. Currently,our design the supports the following instructions completely -\
 a. Vector 32 element load\
 b. Vector 32 element store\
 c. Vector Scale (or VS multiply)\
