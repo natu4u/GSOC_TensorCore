@@ -44,6 +44,8 @@ The SAXPY is one of the most common vector operations frequently encountered in 
    it can be transferred to a memory.
    
 The test bench can be modified or other tests can be added to run other workloads that use the above defined operations. 
+   
+##### Note - a hex value of 0xdead_dead on a signal implies "invalid value" and hence is not used for any computation. Signals having invalid values indicate that they're not active in that time period. 
 
 ## Caveats
 1. In the current implementation, the decoder, load and store unit are all implemented in the "sequencer module" - for the basic operations that are required for this project. A 
