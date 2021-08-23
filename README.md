@@ -31,7 +31,7 @@ c. Vector Scale (or VS multiply)\
 d. Vector Multiplication (or VV multiply)\
 e. Vector Addition (both VS and VV)
 
-## Ruuning the SAXPY example
+## Running the SAXPY example
 The SAXPY is one of the most common vector operations frequently encountered in linear algebra applications. Our SAXPY test is described as follows - 
 1. Load a scalar value of '2' into the scalar register file address location 0x2.
 2. Load vector register 0x1 with 32 elements in the following pattern - (4, 3, 2, 1, 4, 3, 2, 1……, 4, 3, 2, 1).
