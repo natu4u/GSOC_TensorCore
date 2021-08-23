@@ -16,7 +16,7 @@ It is expected to serve as a proof-point for a Deep Learning research platform t
 4. To serve as a proof-point for a Deep Learning research platform to experiment with tensor operators (like fused dot products)and custom number systems(like Posits) . This 
    design can be later used/modified to study tensor core based designs to accelerate Deep learning workloads at greater scale with custom instructions.
 
-To achive these goals, The TensorCore vector execution engine needs to supports the following instructions - 
+To achive these goals, The TensorCore vector execution engine needs to supports the following instructions - \
 a. Vector load
 b. Vector load
 c. Vector scale (VS operation)
