@@ -25,10 +25,10 @@ e. Vector dot product (DOT)
 
 ## Goals Achieved
 We've been able to design the micro-architecture of a singe lane and single VFU based Vector Processor. Currently,our design the supports the following instructions completely - 
-a. Vector 32 element load
-b. Vector 32 element store
-c. Vector Scale (or VS multiply)
-d. Vector Multiplication (or VV multiply)
+a. Vector 32 element load\
+b. Vector 32 element store\
+c. Vector Scale (or VS multiply)\
+d. Vector Multiplication (or VV multiply)\
 e. Vector Addition (both VS and VV)
 
 ## Ruuning the SAXPY example
